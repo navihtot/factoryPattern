@@ -1,0 +1,33 @@
+<?php
+
+namespace Stripe;
+use AccountsServiceInterface;
+
+class Accounts implements AccountsServiceInterface
+{
+
+	public function __construct($config)
+	{
+		// TODO: here do something with config
+	}
+
+	public function add($data)
+	{
+		return 'stripe';
+	}
+
+	public function update($id, $data)
+	{
+		// TODO: Implement update() method.
+	}
+
+	public function delete($id)
+	{
+		// TODO: Implement delete() method.
+	}
+
+	public function get($id)
+	{
+		// TODO: Implement get() method.
+	}
+}
